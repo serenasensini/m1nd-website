@@ -119,3 +119,7 @@ summary:hover{background:var(--soft)}
 /* Spazio tra pulsanti */
 .btn{margin:.5rem 1rem .5rem 0}
 .btn:last-child{margin-right:0}
+/* Card di pari altezza con pulsante allineato in basso */
+.grid>.card{display:flex;flex-direction:column}
+.grid>.card>.btn{margin-top:auto;align-self:flex-start}
+.grid>.card>.post-meta{margin-bottom:1rem}
