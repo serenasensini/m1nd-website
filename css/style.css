@@ -113,5 +113,9 @@ ol.months .m{font-weight:800;color:var(--g2);text-transform:uppercase;font-size:
 .ev-row.is-next{border:3px solid var(--g1)}
 .ev-row.is-next .ev-date{background:var(--g1);color:#fff}
 details{margin-top:.8rem}
-summary{cursor:pointer;font-weight:700;color:var(--link);min-height:2.5rem;display:flex;align-items:center}
+summary{cursor:pointer;font-weight:700;color:var(--g1);background:#fff;border:2px solid var(--g1);border-radius:.6rem;padding:.6rem 1.3rem;min-height:2.75rem;display:inline-flex;align-items:center}
+summary:hover{background:var(--soft)}
 .more{border-left:4px solid var(--g3);padding-left:1rem;margin-top:.5rem}
+/* Spazio tra pulsanti */
+.btn{margin:.5rem 1rem .5rem 0}
+.btn:last-child{margin-right:0}
