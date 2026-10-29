@@ -123,3 +123,5 @@ summary:hover{background:var(--soft)}
 .grid>.card{display:flex;flex-direction:column}
 .grid>.card>.btn{margin-top:auto;align-self:flex-start}
 .grid>.card>.post-meta{margin-bottom:1rem}
+/* Spazio tra etichetta e titolo nella card della home */
+.card>.tag{margin-bottom:1rem}
