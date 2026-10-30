@@ -23,6 +23,15 @@
     if(a==="reset")st={fs:0,readable:false,contrast:false};
     apply();
   });
+  // Finestre (dialog) con il tema completo degli incontri
+  document.addEventListener("click",function(e){
+    var o=e.target.closest("[data-open]");
+    if(o){var d=document.getElementById(o.getAttribute("data-open"));
+      if(d){if(d.showModal)d.showModal();else d.setAttribute("open","");}return;}
+    var c=e.target.closest("[data-close]");
+    if(c){var dd=c.closest("dialog");if(dd){if(dd.close)dd.close();else dd.removeAttribute("open");}return;}
+    if(e.target.tagName==="DIALOG"&&e.target.close)e.target.close();
+  });
   // Commenti Disqus: mostrati di default, caricati quando la sezione sta per entrare nella vista
   var box=document.getElementById("disqus_thread");
   if(box){
