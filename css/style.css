@@ -134,3 +134,9 @@ ol.numbered{list-style:none;padding:0}
 .card .num{margin:0 0 .3rem;font-size:2rem;font-weight:800;line-height:1;color:var(--g3)}
 .more h3:first-child{margin-top:0}
 .section .band-fix{margin:0}
+/* Dettagli degli incontri */
+.ev-body .sub{font-weight:700;color:var(--g2);margin:.1rem 0 .6rem}
+.more h4{margin:1.2rem 0 .4rem;color:var(--g1)}
+.more .spunto{background:var(--soft);padding:.8rem 1rem;border-radius:.5rem}
+.more .closing{color:var(--g1)}
+.ev-date .d-mon+.d-tbd{margin-top:.4rem}
