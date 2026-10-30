@@ -125,3 +125,12 @@ summary:hover{background:var(--soft)}
 .grid>.card>.post-meta{margin-bottom:1rem}
 /* Spazio tra etichetta e titolo nella card della home */
 .card>.tag{margin-bottom:1rem}
+/* Pagina Chi siamo */
+.pull{font-size:1.35em;font-weight:700;color:var(--g1);border-left:6px solid var(--g3);padding:.4rem 0 .4rem 1.2rem;margin:1.8rem 0}
+.pull .motto{display:block;margin-top:.8rem;color:var(--g2)}
+.quote{margin:1.8rem 0;padding:1.2rem 1.5rem;background:var(--soft);border-left:6px solid var(--g1);border-radius:.4rem;font-size:1.15em;font-style:italic}
+.band .quote{background:#fff}
+ol.numbered{list-style:none;padding:0}
+.card .num{margin:0 0 .3rem;font-size:2rem;font-weight:800;line-height:1;color:var(--g3)}
+.more h3:first-child{margin-top:0}
+.section .band-fix{margin:0}
